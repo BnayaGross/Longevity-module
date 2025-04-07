@@ -4,10 +4,15 @@ The following folders are presented:
 1. The folder "Proximity and pAGE results" contains the results of the algorithms and provides the Proximity and pAGE values for each drug to each hallmark of aging for every confidence level.
 2. The folder "proximity" contains functions used by the main scripts.
 3. The folder "data" contains the data used by the algorithm to obtain the results. Specifically, it contains the following files:
+
    3.1 "PPI_2022.csv" - The human interactome.
+   
    3.2 "Gene_hallmarks.csv" - The aging genes and their association with the hallmark of aging. This data is obtained from the OpenGenes database.
+
    3.3 "all_drugbank_drugs.csv" -  All drugs and their targets. This data is obtained from the DrugBank database.
+
    3.4 "age-related-changes.tsv" - Aging-related expression changes used to calculate pAGE. This data is obtained from the OpenGenes database.
+
    3.5 "PPI_2022_distances.pkl" - All shortest paths between pairs of nodes in the interactome. This file is very big and cannot be uploaded to GitHub. Please use the script "Create_PPI_2022_distances.ipynb" to generate it.
 4. The folder "CMap_data" contains the expression data of the drug perturbations used by the algorithm to obtain the results. Specifically, it contains the following files:
    4.1 "compoundinfo_beta.txt" - Compounds metadata information.
