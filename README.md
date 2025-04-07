@@ -5,7 +5,7 @@ The following folders are presented:
 2. The folder "proximity" contains functions used by the main scripts.
 3. The folder "data" contains the data used by the algorithm to obtain the results. Specifically, it contains the following files:
 
-   3.1 "PPI_2022.csv" - The human interactome.
+   3.1 "PPI_2022.csv" - The Protein-Protein interaction data.
    
    3.2 "Gene_hallmarks.csv" - The aging genes and their association with the hallmark of aging. This data is obtained from the OpenGenes database.
 
