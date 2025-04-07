@@ -7,11 +7,11 @@ The following folders are presented:
 
    3.1 "PPI_2022.csv" - The Protein-Protein interaction data.
    
-   3.2 "Gene_hallmarks.csv" - The aging genes and their association with the hallmark of aging. This data is obtained from the OpenGenes database.
+   3.2 "Gene_hallmarks.csv" - The aging genes and their association with the hallmark of aging. This data is obtained from the OpenGenes database - "https://open-genes.com/download".
 
    3.3 "all_drugbank_drugs.csv" -  All drugs and their targets. This data is obtained from the DrugBank database.
 
-   3.4 "age-related-changes.tsv" - Aging-related expression changes used to calculate pAGE. This data is obtained from the OpenGenes database.
+   3.4 "age-related-changes.tsv" - Aging-related expression changes used to calculate pAGE. This data is obtained from the OpenGenes database - "https://open-genes.com/download".
 
    3.5 "PPI_2022_distances.pkl" - All shortest paths between pairs of nodes in the interactome. This file is very big and cannot be uploaded to GitHub. Please use the script "Create_PPI_2022_distances.ipynb" to generate it.
 4. The folder "CMap_data" contains the expression data of the drug perturbations used by the algorithm to obtain the results. Specifically, it contains the following files:
