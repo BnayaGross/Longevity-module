@@ -20,9 +20,9 @@ The following folders are presented:
 
    4.2 "geneinfo_beta.txt" - Genes metadata information.
 
-   4.3 "level5_beta_trt_cp_n720216x12328.gctx" - Expression data of drug perturbation. This file is very big and cannot be uploaded to GitHub. Please download it from the CMap database - "https://clue.io/data/GCTX#GCTxDatasets" . See also the "README.txt" file in the CMap_data folder.
+   4.3 "level5_beta_trt_cp_n720216x12328.gctx" - Expression data of drug perturbation. This file is very big and cannot be uploaded to GitHub. Please download it from the CMap database - "https://clue.io/releases/data-dashboard" . See also the "README.txt" file in the CMap_data folder.
 
-   4.4 "siginfo_beta.txt" - Signature metadata information. This file is very big and cannot be uploaded to GitHub. Please download it from the CMap database - "https://clue.io/data/GCTX#GCTxDatasets" . See also the "README.txt" file in the CMap_data folder.
+   4.4 "siginfo_beta.txt" - Signature metadata information. This file is very big and cannot be uploaded to GitHub. Please download it from the CMap database - "https://clue.io/releases/data-dashboard" . See also the "README.txt" file in the CMap_data folder.
 
 The following scripts contain functions used by the main scripts:
 1. "NetworkMetrics.py" is a short subset library of functions from the NetMedPy package - https://github.com/menicgiulia/NetMedPy .
