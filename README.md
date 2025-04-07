@@ -15,9 +15,13 @@ The following folders are presented:
 
    3.5 "PPI_2022_distances.pkl" - All shortest paths between pairs of nodes in the interactome. This file is very big and cannot be uploaded to GitHub. Please use the script "Create_PPI_2022_distances.ipynb" to generate it.
 4. The folder "CMap_data" contains the expression data of the drug perturbations used by the algorithm to obtain the results. Specifically, it contains the following files:
+
    4.1 "compoundinfo_beta.txt" - Compounds metadata information.
+
    4.2 "geneinfo_beta.txt" - Genes metadata information.
+
    4.3 "level5_beta_trt_cp_n720216x12328.gctx" - Expression data of drug perturbation. This file is very big and cannot be uploaded to GitHub. Please download it from the CMap database - "https://clue.io/data/GCTX#GCTxDatasets" . See also the "README.txt" file in the CMap_data folder.
+
    4.4 "siginfo_beta.txt" - Signature metadata information. This file is very big and cannot be uploaded to GitHub. Please download it from the CMap database - "https://clue.io/data/GCTX#GCTxDatasets" . See also the "README.txt" file in the CMap_data folder.
 
 The following scripts contain functions used by the main scripts:
