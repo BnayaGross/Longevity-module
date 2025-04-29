@@ -24,6 +24,8 @@ The following folders are presented:
 
    4.4 "siginfo_beta.txt" - Signature metadata information. This file is very big and cannot be uploaded to GitHub. Please download it from the CMap database - "https://clue.io/releases/data-dashboard" . See also the "README.txt" file in the CMap_data folder.
 
+5. The folder "Demo" contains the code and data to run the algorithm on a small set of drugs and calculate the pAGE value from synthetic drug signatures.
+
 The following scripts contain functions used by the main scripts:
 1. "NetworkMetrics.py" is a short subset library of functions from the NetMedPy package - https://github.com/menicgiulia/NetMedPy .
 2. "Diamond.py" and "disease_module_identification.py" contain functions for calculating network properties.
