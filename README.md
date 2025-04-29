@@ -35,6 +35,8 @@ The following scripts are the main scripts:
 1. The first script, "Drug_proximity.py" calculates the proximity of all the drugs in the DrugBank to each of the hallmarks of aging for a specific confidence level. It can be launched from the terminal using the command "python3 ./Drug_proximity.py confidence_level" where confidence_level value is [1,2,3,4,5].
 2. The script "Drug_proximity.py" can take a few weeks to run. Instead, one can parallelize a computation using a high-performance computing (HPC) cluster to shorten the run time. This can be done using the scripts "Drug_proximity_multi_processing.py" and "Drug_proximity__multi_processing_sbatch.sh".
 3. Once the proximity is calculated, one can use the second script "pAGE.ipynb" to calculate the pAGE value.
+
+The software is standalone, and there are no special software dependencies or operating systems required. Using python3 is sufficient. 
    
 
 
