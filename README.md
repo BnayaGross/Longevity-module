@@ -36,6 +36,8 @@ The following scripts are the main scripts:
 2. The script "Drug_proximity.py" can take a few weeks to run. Instead, one can parallelize a computation using a high-performance computing (HPC) cluster to shorten the run time. This can be done using the scripts "Drug_proximity_multi_processing.py" and "Drug_proximity__multi_processing_sbatch.sh".
 3. Once the proximity is calculated, one can use the second script "pAGE.ipynb" to calculate the pAGE value.
 
+4. The script "LCC significance.ipynb" identifies the hallmark modules and calculates their statistical significance using node permutation and edge permutation for both our human interactome and the STRING PPI.
+
 The software is standalone, and there are no special software dependencies or operating systems required. We used Python 3.12.2 to obtain the results. 
    
 
