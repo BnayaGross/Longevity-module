@@ -2,7 +2,7 @@
 """
 distances.py contains the functions of network-based distance measures.
 
-creator: rodrigo dorantes gilardi (rodgdor@gmail.com)
+creator: rodrigo dorantes gilardi
 date: 03-16-2022
 """
 from collections import defaultdict

@@ -14,7 +14,6 @@ import xml.etree.ElementTree as ET
 import requests
 import json
 from Bio import Entrez
-Entrez.email = 'farzaneh.nasirian@gmail.com'
 from IPython.display import Markdown, display
 from tqdm import tqdm
 import matplotlib.pyplot as plt
@@ -41,7 +40,6 @@ def LCC_zscore(G, nodes, degree_preserving=True):
     if Std == 0:
         Std = 0.001
     z_score = (LCC_size-Ave)/Std
-    #p_value = norm.sf(z_score) 
     p_value = float(len([d for d in x if d >= LCC_size])/1000)
 
     return((p_value, z_score, LCC_size, Ave))
@@ -61,7 +59,6 @@ def LCC_zscore_new(G, nodes, degree_preserving=True):
     if Std == 0:
         Std = 0.001
     z_score = (LCC_size-Ave)/Std
-    #p_value = norm.sf(z_score) 
     p_value = float(len([d for d in x if d >= LCC_size])/1000)
 
     return((p_value, z_score, LCC_size, Ave, x))
@@ -82,7 +79,6 @@ def LCC_zscore_par(G, nodes, par, degree_preserving=True):
     if Std == 0:
         Std = 0.001
     z_score = (LCC_size-Ave)/Std
-    #p_value = norm.sf(z_score) 
     p_value = float(len([d for d in x if d >= LCC_size])/(10*par))
 
     return((p_value, z_score, LCC_size, Ave, x))
@@ -102,7 +98,6 @@ def LCC_zscore_high(G, nodes, degree_preserving=True):
     if Std == 0:
         Std = 0.001
     z_score = (LCC_size-Ave)/Std
-    #p_value = norm.sf(z_score) 
     p_value = float(len([d for d in x if d >= LCC_size])/10000)
 
     return((p_value, z_score, LCC_size, Ave, x))

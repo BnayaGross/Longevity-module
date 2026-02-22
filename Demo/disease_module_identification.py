@@ -14,7 +14,6 @@ import xml.etree.ElementTree as ET
 import requests
 import json
 from Bio import Entrez
-Entrez.email = 'farzaneh.nasirian@gmail.com'
 from IPython.display import Markdown, display
 from tqdm import tqdm
 import matplotlib.pyplot as plt

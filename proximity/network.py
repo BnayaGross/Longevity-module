@@ -2,7 +2,7 @@
 """
 network.py contains the library-agnostic class Network.
 
-creator: rodrigo dorantes gilardi (rodgdor@gmail.com)
+creator: rodrigo dorantes gilardi
 date: 03-16-2022
 """
 from proximity.distances import proximity, separation

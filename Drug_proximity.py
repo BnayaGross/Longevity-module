@@ -63,17 +63,9 @@ path = "./data/Gene_hallmarks.csv"
 gene_hallmarks_extended = pd.read_csv(path)
 gene_hallmarks_extended = gene_hallmarks_extended[['GeneId','aging_mechanisms','criteria','confidence','aging_mechanisms_group' ]]
 
-print("Hallmark genes loaded")
-
-
 path_all_drugbank_drugs = "./data/all_drugbank_drugs.csv"
 all_drugbank_drugs = pd.read_csv(path_all_drugbank_drugs)
 approved_drugs_names = all_drugbank_drugs['Name'].unique()
-
-
-print("DrugBank loaded")
-
-
 
 largest_cc = max(nx.connected_components(G), key=len)
 G_sub = G.subgraph(largest_cc)
@@ -83,15 +75,8 @@ for idx, drug in enumerate(approved_drugs_names):
     target_genes_bucket.append(set(target_genes[target_genes.Gene_Target.isin(G_sub.nodes())]['Gene_Target']))
 
 
-print("Bucket of all drug targets created")
-
 filename_dis = "./data/PPI_2022_distances.pkl"
 D = metrics.load_distances(filename_dis)
-
-print("Distance matrix loaded")
-
-print("Start measuring proximity")
-
 
 level = int(sys.argv[1])
 
