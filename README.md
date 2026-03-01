@@ -39,6 +39,10 @@ The following scripts are the main scripts:
 4. The script "LCC significance.ipynb" identifies the hallmark modules and calculates their statistical significance using node permutation and edge permutation for both our human interactome and the STRING PPI.
 
 The software is standalone, and there are no special software dependencies or operating systems required. We used Python 3.12.2 to obtain the results. 
+
+
+Python package can be found here:
+https://github.com/BnayaGross/sharp-aging
    
 
 
